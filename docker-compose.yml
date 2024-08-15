@@ -1,0 +1,6 @@
+﻿services:
+  semapp:
+    image: semapp
+    build:
+      context: .
+      dockerfile: SemApp/Dockerfile
